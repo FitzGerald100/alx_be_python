@@ -1,6 +1,4 @@
-60 second = 1 minute
-60 minutes = 1 hour
+hours = 2
+seconds = hours * 3600
 
-2 hours = (60 * 120)seconds
-
-print("2 hour(s) is" , 2 hours)
+print("2 hour(s) is" , seconds)
