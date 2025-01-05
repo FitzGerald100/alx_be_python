@@ -6,4 +6,4 @@ r = rate
 t = time
  I = (P * R * T)
 
-print("The simple interest is" I)
+print("The simple interest is", I)
