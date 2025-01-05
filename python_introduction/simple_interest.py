@@ -3,4 +3,4 @@ rate = 0.05
 time = 3
 interest = principal * rate * time
 
-print("Simple Interest:", interest)
+print("S:imple Interest:", interest)
