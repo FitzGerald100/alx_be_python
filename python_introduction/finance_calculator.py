@@ -13,9 +13,5 @@ income = float(input("Enter your monthly income: "))
     expenses = $4000
     montly_savings = $1000
     # Output results
-    print(f"Your monthly savings are ${monthly_savings:.2f}.")
-    print(f"Projected savings after one year, with interest, is: ${projected_savings:.2f}.")
-
-# Call the function to calculate and display savings
-calculate_savings()
-
+    print(f"Your monthly savings are" , monthly_savings.)
+    print(f"Projected savings after one year, with interest, is:" , projected_savings.)
