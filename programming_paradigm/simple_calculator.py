@@ -7,7 +7,7 @@ class SimpleCalculator:
         """Return the addition of a and b."""
         return a + b 
     
-    def substract(self, a, b):
+    def subtract(self, a, b):
         """Return the substraction of b from a"""
         return a - b
     
