@@ -33,7 +33,7 @@ class Library:
     def __init__(self):
         self.books = []  # List to store Book, EBook, and PrintBook instances
 
-    def add_book(self, book):
+    def add_book(self):
         """
         Adds a book to the library. Ensures that the object is an instance of the Book class.
         """
