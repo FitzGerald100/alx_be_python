@@ -33,15 +33,13 @@ class Library:
     def __init__(self):
         self.books = []  # List to store Book, EBook, and PrintBook instances
 
-    def add_book(self):
+    def add_book(self, book):
         """
         Adds a book to the library. Ensures that the object is an instance of the Book class.
         """
         if isinstance(book, Book):
             self.books.append(book)
-            print(f"Added: {book}")
-        else:
-            print("Error: Only instances of Book (or subclasses) can be added to the library.")
+        
 
     def list_books(self):
         """
